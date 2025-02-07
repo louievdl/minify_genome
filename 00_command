@@ -1,0 +1,102 @@
+# 20250131
+mkdir grcm39_ens113
+#wget -O grcm39_ens113/mouse_genome.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.primary_assembly.fa.gz # main chrs and extras, but no haplotypes
+#zcat grcm39_ens113/mouse_genome.fa.gz | grep ">" | less
+#wget -O grcm39_ens113/mouse_genome.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.toplevel.fa.gz # same
+#zcat grcm39_ens113/mouse_genome.fa.gz | grep ">" | less
+# download each chromosome and cat all together
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.1.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.2.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.3.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.4.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.5.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.6.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.7.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.8.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.9.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.10.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.11.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.12.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.13.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.14.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.15.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.16.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.17.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.18.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.19.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.MT.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.X.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+wget -O tmp.fa.gz https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.chromosome.Y.fa.gz
+cat tmp.fa.gz >> grcm39_ens113/mouse_genome.fa.gz
+rm tmp.fa.gz
+zcat grcm39_ens113/mouse_genome.fa.gz | grep ">" | less
+
+#wget -O grcm39_ens113/mouse_genome.gff3.gz https://ftp.ensembl.org/pub/release-113/gff3/mus_musculus/Mus_musculus.GRCm39.113.gff3.gz # main chrs and haplotypes/extras
+wget -O grcm39_ens113/mouse_genome.gff3.gz https://ftp.ensembl.org/pub/release-113/gff3/mus_musculus/Mus_musculus.GRCm39.113.chr.gff3.gz # main chrs only
+
+wget -O grcm39_ens113/mouse_genome.gtf.gz https://ftp.ensembl.org/pub/release-113/gtf/mus_musculus/Mus_musculus.GRCm39.113.chr.gtf.gz
+
+
+# 20250201 need gffutils for the genome compression script - create conda env
+module load anaconda3
+conda create -n gffutils
+conda activate gffutils
+conda init bash
+source ~/.bashrc
+conda install -n gffutils -c bioconda gffutils=0.13
+cd ~/cgebm/RNA_Seq/Mouse/Genome/compressed/
+# also includes biopython
+
+# 20250201,4
+# analyse mouse_genome.fa, mouse_genome.gff3 and mouse_genome.gtf, GRCm39 genome from Ensembl release 113
+srun --mem=4G --pty /bin/bash
+
+## created gffutils environment, which includes biopython 1.78
+#conda activate gffutils
+#python compress_genome.py mouse_genome.fa mouse_genome.gff3 mouse_genome_reduced.fa mouse_genome_reduced.gff3
+## parsing annotation files takes much too long. much faster to use basic python
+
+# now using only biopython from gffutils env, transcripts limited to transcript_biotype=protein_coding and (tag=Ensembl_canonical or tag=gencode_basic); of these longest transcript only
+cd compressed
+cp -a ../grcm39_ens113/*.gz .
+gunzip *.gz
+conda activate gffutils # use for biopython only
+python3 compress_genome.py mouse_genome.fa mouse_genome.gtf mouse_genome_compressed.fa mouse_genome_compressed.gtf mouse_genome_compressed.gff3
+#loading seqs
+#parsing gtf
+#finding longest transcript
+#creating pseudo-chromosomes
+#writing output files
+
+# 20250205
+du -sh mouse_genome_compressed.fa # 69M
+
+# 20250207
+cd ..
+rm -i compressed/mouse_genome.* # remove orig files from compressed folder
+cp -a compressed/mouse_genome_compressed.fa ./mouse.fa
+cp -a compressed/mouse_genome_compressed.gff3 ./mouse.gff3
+
+
+
